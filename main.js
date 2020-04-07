@@ -88,6 +88,6 @@ var fruits = [
 	}
 ]
 
-fruits.forEach(function(fruit) {
-	$('#ingredients').append("<div class='box'>" + fruit.name + "</div>")
-})
+for(var i=0; i<fruits.length; i++){
+	$('#ingredients').append("<div class='box'>" + fruits[i].name + "</div>")
+}
