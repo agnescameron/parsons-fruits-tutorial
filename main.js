@@ -81,7 +81,7 @@ var fruits = [
 
 	{
 		"name": "peach",
-		"color": "peach",
+		"color": "peachpuff",
 		"flavor": "delicate",
 		"shape": "round",
 		"emoji": "🍑"
